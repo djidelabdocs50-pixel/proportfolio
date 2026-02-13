@@ -113,6 +113,9 @@ section h3 {
     background: #1a1a1a;
     padding: 20px;
     border-left: 3px solid #00ff9c;
+
+    /* ضبط كل البطاقات بنفس الارتفاع */
+    height: 220px; /* عدّل الرقم إذا لزم حسب ارتفاع البطاقات الأخرى */
 }
 
 /* Footer */
@@ -122,6 +125,7 @@ footer {
     border-top: 1px solid #1f1f1f;
     color: #777;
 }
+
 /* Terminal Typing Effect */
 .terminal-line {
     font-family: "Courier New", monospace;
