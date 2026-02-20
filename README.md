@@ -20,29 +20,8 @@ A modern, responsive personal portfolio website showcasing my journey as a Compu
 ## 🚀 Quick Start
 
 ### View Live
-[Visit Portfolio](https://yourusername.github.io/portfolio)
+[Visit Portfolio](https://djidelabdocs50-pixel.github.io/portfolio)
 
-### Run Locally
-1. Clone this repository
-```bash
-git clone https://github.com/yourusername/portfolio.git
-```
-
-2. Open `index.html` in your browser
-```bash
-cd portfolio
-open index.html
-```
-
-## 📁 Project Structure
-
-```
-portfolio/
-├── index.html          # Main HTML structure
-├── style.css           # All styling and animations
-├── script.js           # Interactive functionality
-└── README.md           # This file
-```
 
 ## 🎯 Sections
 
@@ -74,13 +53,6 @@ portfolio/
 - **Tablet**: 768px - 1199px
 - **Mobile**: < 768px
 
-## 🎨 Color Scheme
-
-- **Primary Color**: `#00ff9c` (Cyber Green)
-- **Background**: `#0d0d0d` (Dark)
-- **Card Background**: `#1a1a1a`
-- **Text**: `#e0e0e0`
-
 ## ⚡ Performance
 
 - No external dependencies
@@ -92,6 +64,8 @@ portfolio/
 
 1. **Password Strength Checker** - [View Live](https://djidelabdocs50-pixel.github.io/pstrength/)
 2. **CyberSec Toolkit** - [View Live](https://djidelabdocs50-pixel.github.io/cs-tool-kit/)
+3. **CipherArena-CTF Platform** - [View Live](https://djidelabdocs50-pixel.github.io/cipher-arana/)
+4. **ThreatScan-AI Threat Analyzer - [View Live](https://djidelabdocs50-pixel.github.io/portfolio/threat-analyzer.html)
 
 ## 📞 Connect With Me
 
