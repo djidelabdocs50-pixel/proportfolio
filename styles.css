@@ -1,70 +1,42 @@
-/* Reset some basic elements */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body styling */ody {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-/* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #62c2f0, #1d7875);
-    color: white;
-    padding: 100px 20px;
-    text-align: center;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation: fadeIn 1s;
 }
 
-/* Buttons styling */
-.hero .btn {
-    background-color: #ff6347;
-    padding: 10px 20px;
-    border: none;
-    color: white;
-    cursor: pointer;
-    transition: background 0.3s ease;
+.hero h1 {
+  color: white;
+  font-size: 4rem;
 }
 
-.hero .btn:hover {
-    background-color: #e0543e;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    .hero {
-        padding: 60px 10px;
-    }
-
-    .hero h1 {
-        font-size: 24px;
-    }
-}
-
-/* Animations for sections */
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-.section {
-    animation: fadeIn 1s ease-in;
-    padding: 60px 20px;
+.card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s;
 }
 
-/* Modern gradients for other sections */
-.section-one {
-    background: linear-gradient(180deg, #ff7e5f, #feb47b);
-    color: white;
+.card:hover {
+  transform: translateY(-10px);
 }
 
-.section-two {
-    background: linear-gradient(180deg, #6a11cb, #2575fc);
-    color: white;
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .card {
+    padding: 15px;
+  }
 }
+
+/* Add more styles as needed */
