@@ -3,68 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of DJidelab">
-    <title>DJidelab Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <div class="hero">
-            <h1>Welcome to My Portfolio</h1>
-            <p>I'm a passionate developer specializing in web technologies.</p>
-            <a href="#contact" class="cta">Contact Me</a>
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Your description goes here</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Your bio goes here</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div>
+            <!-- Project items -->
+            <figure>
+                <img src="project1.jpg" alt="Project 1">
+                <figcaption>Project 1 Description</figcaption>
+            </figure>
+            <!-- Add more projects as needed -->
         </div>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I'm a dedicated developer with a knack for creating dynamic web applications. I have a background in both front-end and back-end technologies.</p>
-        </section>
-        <section id="projects">
-            <h2>Featured Projects</h2>
-            <div class="project-list">
-                <article class="project">
-                    <h3>Project 1</h3>
-                    <p>A cool project description goes here.</p>
-                </article>
-                <article class="project">
-                    <h3>Project 2</h3>
-                    <p>A cool project description goes here.</p>
-                </article>
-                <article class="project">
-                    <h3>Project 3</h3>
-                    <p>A cool project description goes here.</p>
-                </article>
-            </div>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node.js</li>
-            </ul>
-        </section>
-        <section id="testimonials">
-            <h2>Testimonials</h2>
-            <blockquote>
-                <p>"A great developer who always delivers on time!" - Jane Doe</p>
-            </blockquote>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form>
-                <input type="text" placeholder="Your Name" required />
-                <input type="email" placeholder="Your Email" required />
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+        </ul>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <blockquote>
+            <p>"Great work!" - Client Name</p>
+        </blockquote>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="yourformhandler.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
     <footer>
-        <p>&copy; 2026 DJidelab. All rights reserved.</p>
+        <p>© 2026 by Your Name</p>
     </footer>
 </body>
 </html>
