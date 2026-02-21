@@ -1,56 +1,70 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.header {
-    background: linear-gradient(135deg, #6b73ff, #000dff);
+/* Body styling */ody {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #62c2f0, #1d7875);
     color: white;
-    padding: 20px;
+    padding: 100px 20px;
     text-align: center;
-    animation: fadeIn 1s ease-in;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-.card {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    transition: transform 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-}
-
-.button {
-    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+/* Buttons styling */
+.hero .btn {
+    background-color: #ff6347;
+    padding: 10px 20px;
     border: none;
     color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background 0.3s ease;
 }
 
-.button:hover {
-    background: linear-gradient(135deg, #feb47b, #ff7e5f);
+.hero .btn:hover {
+    background-color: #e0543e;
 }
 
+/* Responsive design */
 @media (max-width: 768px) {
-    .container {
-        padding: 10px;
+    .hero {
+        padding: 60px 10px;
     }
-    .header {
-        font-size: 1.5em;
+
+    .hero h1 {
+        font-size: 24px;
     }
-    .card {
-        margin: 10px;
+}
+
+/* Animations for sections */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
     }
+    to {
+        opacity: 1;
+    }
+}
+
+.section {
+    animation: fadeIn 1s ease-in;
+    padding: 60px 20px;
+}
+
+/* Modern gradients for other sections */
+.section-one {
+    background: linear-gradient(180deg, #ff7e5f, #feb47b);
+    color: white;
+}
+
+.section-two {
+    background: linear-gradient(180deg, #6a11cb, #2575fc);
+    color: white;
 }
